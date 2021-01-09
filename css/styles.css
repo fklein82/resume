@@ -9996,7 +9996,7 @@ h3,
 h4,
 h5,
 h6 {
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 h1 {
@@ -10028,7 +10028,7 @@ p.lead {
   #sideNav {
     text-align: center;
     position: fixed;
-    top: 0;
+   gras top: 0;
     left: 0;
     display: flex;
     flex-direction: column;
