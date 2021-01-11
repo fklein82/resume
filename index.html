@@ -14,6 +14,11 @@
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <!-- Loading script -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-9W5FX1281B"></script>
 			<script>
@@ -39,7 +44,7 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="assets/Resume_fklein.pdf">Download my resume</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="assets/Resume_fklein.pdf"><i class="fas fa-cloud-download-alt"></i> Resume</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="https://stats.uptimerobot.com/GzwEBSJV02">Website Status</a></li>
                 </ul>
             </div>
@@ -64,7 +69,7 @@
                 </div>
             </section>
              <hr class="m-0" />
-            <!-- Awards-->
+            <!-- Portfolio-->
             <section class="resume-section" id="awards">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Portofolio</h2>
@@ -82,31 +87,37 @@
                 <div class="resume-section-content">
                     <h2 class="mb-5">My journey</h2>
 
-                    <!-- New 
+                    <!-- New -->
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0"><span class="text-primary">Solutions Architect</span> for a Cloud Provider</h3>
-                            <li><i class="fa-li fa fa-spinner fa-spin"></i>Coming soon...</li>
+                            <h3 class="mb-0"><span class="text-primary">Solutions Architect</span> (Public Cloud)</h3>
+                              <p><i class="fas fa-map-marker-alt"></i>   Paris (France) </br>
+                              <button class="btn btn-primary" disabled>
+   							  <span class="spinner-grow spinner-grow-sm"></span>
+     					      Coming soon...
+  							  </button></p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">Starting in March 2021</span></div>
-                    </div> -->
+                        <div class="flex-shrink-0"><span class="text-primary">Starting 1st March 2021</span></div>
+                    </div>
            		
-                    <! -- First Experience Head of -->
+                    <!-- First Experience Head of -->
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0"><span class="text-primary">Head of Cloud Operations</span> (Private Cloud for container based)</h3>
-                            <h4><img class="orange" src="https://c.woopic.com/logo-orange.png" width="40" height="40">  Orange France  -<a href="https://orange.fr">  https://orange.fr</a></h4>
+                            <p><img class="orange" src="https://c.woopic.com/logo-orange.png" width="20" height="20"> Orange France </br>
+                            <i class="fas fa-map-marker-alt"></i>   Paris (France) - <i class="fas fa-link"></i><a href="https://orange.fr">  https://orange.fr</a></p>
                             <li><i class="fa-li fa fa-spinner fa-spin"></i><span class="text-primary">Managed</span> a Cloud Department : <span class="text-primary">25 internals employees</span> and Cloud Experts.</li>
                             <li><i class="fa-li fa fa-check-square"></i>Tech Stack : <span class="text-primary">VMware Vsphere, Kubernetes, </span>CloudFoundry, Bosh, ELK, GITLAB-CI, Prometheus, Grafana, Ansible, Terraform...</li>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">Septembre 2019 - March 2021</span></div>
                     </div>
                     
-                    <! -- #2 Experience Transformation Manager -->
+                    <!-- #2 Experience Transformation Manager -->
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0"><span class="text-primary">DevOps & Cloud</span> Transformation Manager</h3>
-                            <h4><img class="orange" src="https://c.woopic.com/logo-orange.png" width="40" height="40">  Orange Réunion Mayotte  -<a href="https://reunion.orange.fr">  https://reunion.orange.fr</a></h4>
+                            <p><img class="orange" src="https://c.woopic.com/logo-orange.png" width="20" height="20"> Orange Réunion Mayotte </br>
+                            <i class="fas fa-map-marker-alt"></i>   L'île de La Réunion - Saint-Denis (France) <i class="fas fa-link"></i><a href="https://reunion.orange.fr">  https://reunion.orange.fr</a></p>
                             <li><i class="fa-li fa fa-check-square"></i><span class="text-primary">Designed the new Cloud infrastructure</span> based on a Software Defined Platform for host the <span class="text-primary">NextGEN BSS.</span></li> 
                             <li><i class="fa-li fa fa-check-square"></i>Audited the IT full scope.</li>
                             <li><i class="fa-li fa fa-check-square"></i><span class="text-primary">Optimized</span> the IT delivry model and the <span class="text-primary">Developper "Experience"</span>. Supported the transformation and prepared the training programs (AGILE, CLoud, DevOps).</li> 
@@ -116,11 +127,13 @@
                         <div class="flex-shrink-0"><span class="text-primary">January 2019 - August 2019</span></div>
                     </div>
                     
-                    <! -- #3 Experience  -->
+                    <!-- #3 Experience  -->
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0"><span class="text-primary">DevOps</span> Team Manager</h3>
-                            <h4><img class="orange" src="assets/img/om_logo.png" width="50" height="50">  Orange Group  -<a href="https://orangemoney.fr">  https://orangemoney.fr</a></h4>
+                            <p><img class="orange" src="https://c.woopic.com/logo-orange.png" width="20" height="20"> <img class="orange" src="assets/img/om_logo.png" width="20" height="20"> Orange Group </br>
+                            <i class="fas fa-map-marker-alt"></i>   Based at Paris (France) - <i class="fas fa-link"></i><a href="https://orange.fr">  https://orangemoney.fr</a></br>
+                            <i class="fas fa-plane-departure"></i>  Several mission accross the world : India, Romania, Poland, Cameroon, Mali ...</p>
                             <li><i class="fa-li fa fa-check-square"></i><span class="text-primary">Integration and Validation Head of « Orange Money »</span> Mobile Payment Solution in MEA project : Deployment of an Indian solution for African markets in 15 countries, operated by Romanian team.</li> 
                             <li><i class="fa-li fa fa-check-square"></i>Designed and <span class="text-primary">accelerated the Time-to-Market</span> process by implementing a continuous and automatic deployment chain for the “M2M/IOT” and “Payement” projects.</li> 
                             <li><i class="fa-li fa fa-check-square"></i><span class="text-primary">Led the transformation</span> of the organization to <span class="text-primary">DevOps</span> for Ops team and developers.</li> 
@@ -129,14 +142,15 @@
                             <li><i class="fa-li fa fa-check-square"></i><span class="text-primary">DevOps coach</span> and trainer for all the Orange countries and Group affiliate, on Agile, Cloud and CI/CD tools.</li> 
                             <li><i class="fa-li fa fa-check-square"></i>Main technical environment & Tools : GNU/Linux, <span class="text-primary">Openstack, VMware, Docker/Kubernetes, Openshift,</span> Ansible, Terraform, Jenkins, GITLAB-CI, RobotFramework, Apium, Selenium, ELK, Zabbix, MongoDB, Galera Cluster for MySQL, NodeJS, Java, Php...</li>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">september 2015 - january 2019</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">September 2015 - January 2019</span></div>
                     </div>
                     
-                     <! -- #4 Experience  -->
+                     <!-- #4 Experience  -->
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0"><span class="text-primary">Integration</span> Engineer</h3>
-                            <h4><img class="orange" src="assets/img/om_logo.png" width="50" height="50">  Orange Group  -<a href="https://orangemoney.fr">  https://orangemoney.fr</a></h4>
+                            <p><img class="orange" src="https://c.woopic.com/logo-orange.png" width="20" height="20"> <img class="orange" src="assets/img/om_logo.png" width="20" height="20"> Orange Group </br>
+                            <i class="fas fa-map-marker-alt"></i>   Paris (France) - <i class="fas fa-link"></i><a href="https://orange.fr">  https://orangemoney.fr</a></p>
                             <li><i class="fa-li fa fa-check-square"></i>Worked as<span class="text-primary"> Technical Expert</span> for “Orange Money” : achievement of Production rollouts objectives and of affiliated migrations.</li> 
                             <li><i class="fa-li fa fa-check-square"></i>Contributed in the <span class="text-primary">“Crash Program” Management </span>with responsive support for a full operational and restored service during crisis.</li> 
                             <li><i class="fa-li fa fa-check-square"></i><span class="text-primary">Supervised the Deployment & Run team composed of six integrators </span>on an international project (India, Romania, Africa).</li>
@@ -144,41 +158,45 @@
                         <div class="flex-shrink-0"><span class="text-primary">September 2013 - September 2015</span></div>
                     </div>
                     
-                     <! -- #5 Experience  -->
+                     <!-- #5 Experience  -->
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0"><span class="text-primary">System</span> Engineer</h3>
-                            <h4><img class="orange" src="https://c.woopic.com/logo-orange.png" width="40" height="40">  Orange France  -<a href="https://orange.fr">  https://orange.fr</a></h4>
+                            <p><img class="orange" src="https://c.woopic.com/logo-orange.png" width="20" height="20"> Orange France </br>
+                            <i class="fas fa-map-marker-alt"></i>   Paris (France) - <i class="fas fa-link"></i><a href="https://orange.fr">  https://orange.fr</a></p>
                             <li><i class="fa-li fa fa-check-square"></i>Administrated a <span class="text-primary">virtual production infrastructure hosting critical French services </span> such as Orange Portal, TV Services, and mobile online shopping platforms.</li>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">September 2008 - September 2013</span></div>
                     </div>
 
-                     <! -- #6 Experience  -->
+                     <!-- #6 Experience  -->
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0"><span class="text-primary">System</span> Engineer (Apprenticeship)</h3>
-                            <h4><img class="orange" src="https://c.woopic.com/logo-orange.png" width="40" height="40">  Orange France  -<a href="https://orange.fr">  https://orange.fr</a></h4>
+                            <p><img class="orange" src="https://c.woopic.com/logo-orange.png" width="20" height="20"> Orange France </br>
+                            <i class="fas fa-map-marker-alt"></i>   Strasbourg (France) - <i class="fas fa-link"></i><a href="https://orange.fr">  https://orange.fr</a></p>
                             <li><i class="fa-li fa fa-check-square"></i>Administrated a <span class="text-primary">virtual production infrastructure hosting internal services </span> such as CRM, ERP, SiRH, etc...</li>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">September 2005 - September 2008</span></div>
                     </div>
 
-                     <! -- #7 Experience  -->
+                     <!-- #7 Experience  -->
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0"><span class="text-primary">IT Technician</span></h3>
-                            <h4><img class="orange" src="assets/img/cargonet_logo.png" width="90" height="40">  CargoNET Software  -<a href="http://www.cargonet.software/fr/">  http://cargonet.software</a></h4>
+                            <p><img class="orange" src="assets/img/cargonet_logo.png" width="40" height="20"> CargoNET Software </br>
+                            <i class="fas fa-map-marker-alt"></i>   Strasbourg (France) - <i class="fas fa-link"></i><a href="http://www.cargonet.software/fr/">  https://cargonet.software</a></p>
                             <li><i class="fa-li fa fa-check-square"></i>Provided general desktop, network and printer support <span class="text-primary">for B2B clients (DPD parcel service) -  </span></li>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">September 2003 - September 2005</span></div>
                     </div>
 
-                     <! -- #8 Experience  -->
+                     <!-- #8 Experience  -->
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0"><span class="text-primary">IT Technician</span>  (Apprenticeship)</h3>
-                            <h4><img class="orange" src="assets/img/cargonet_logo.png" width="90" height="40">  CargoNET Software  -<a href="http://www.cargonet.software/fr/">  http://cargonet.software</a></h4>
+                            <p><img class="orange" src="assets/img/cargonet_logo.png" width="40" height="20"> CargoNET Software </br>
+                            <i class="fas fa-map-marker-alt"></i>   Strasbourg (France) - <i class="fas fa-link"></i><a href="http://www.cargonet.software/fr/">  https://cargonet.software</a></p>
                             <li><i class="fa-li fa fa-check-square"></i>Provided general desktop, network and printer support <span class="text-primary">for B2B clients (DPD parcel service) -  </span></li>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">September 2001 - September 2003</span></div>
