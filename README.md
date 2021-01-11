@@ -1,2 +1,2 @@
 # resume
- My first website
+ Frédéric KLEIN Resume Website
